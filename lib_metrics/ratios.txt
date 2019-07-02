@@ -1,0 +1,8 @@
+n-gn,zy-zy
+sto-gn,go-go
+en-en,ex-ex
+ex-en,en-en
+ps-pi,ex-en
+al-al,n-sn
+ls-sto,sto-li
+ch-ch,zy-zy
