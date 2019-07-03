@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<annotation>
+   <folder>n000001</folder>
+   <filename>0340_01.jpg</filename>
+   <path>n000001/0340_01.jpg</path>
+   <source>
+      <database>Unknown</database>
+   </source>
+   <size>
+      <width>391</width>
+      <height>402</height>
+   </size>
+   <segmented>0</segmented>
+   <object>
+      <name>N000001</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>108</xmin>
+         <ymin>84</ymin>
+         <xmax>275</xmax>
+         <ymax>285</ymax>
+      </bndbox>
+   </object>
+</annotation>
