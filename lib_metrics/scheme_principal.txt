@@ -1,0 +1,11 @@
+ex-en,en-en
+ls-sto,sto-li
+cl_lips
+ca_lips
+cb_lips
+cl_eyes
+ca_eyes
+cb_eyes
+cl_eyebrows
+ca_eyebrows
+cb_eyebrows

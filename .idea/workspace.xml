@@ -4,7 +4,301 @@
     <bookmark url="file://$PROJECT_DIR$/pca.py" line="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dba5bef-8eb1-4df4-bfb9-728d9b793ab5" name="Default Changelist" comment="" />
+    <list default="true" id="5dba5bef-8eb1-4df4-bfb9-728d9b793ab5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00021.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00026.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00031.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00036.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00041.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00046.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00051.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00056.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00061.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00066.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00071.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00076.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00081.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00086.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00091.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00096.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00101.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00106.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00111.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00116.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00206.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00211.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00216.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00221.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00226.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00231.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00236.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00241.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00246.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00251.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00276.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00281.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00286.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00291.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00296.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00301.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00306.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00311.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00316.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00321.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00351.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00356.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00361.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00366.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00371.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00376.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00416.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00421.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00426.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00431.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00436.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00441.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00446.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00451.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00506.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00511.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00516.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00521.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00526.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00531.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00536.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00541.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00546.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00551.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00556.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00591.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00596.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00601.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00606.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00611.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00616.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00621.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00626.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00631.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00636.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00641.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00646.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00651.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00691.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00696.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00701.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00706.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00711.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00716.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00721.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00726.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00731.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00736.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00741.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00896.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00901.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00906.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00911.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00916.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00921.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00926.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00931.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00936.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00941.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00946.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00951.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00956.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00961.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00966.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00971.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00976.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00981.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00986.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00991.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene00996.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01011.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01021.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01026.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01031.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01036.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01041.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01046.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01051.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01056.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01061.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01066.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01071.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01076.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01081.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01201.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01206.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01211.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01216.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01221.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01226.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01231.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01236.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01241.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01246.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01251.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01261.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01266.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01271.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01276.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01281.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01286.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01291.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01296.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01301.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01356.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01361.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01366.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01371.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01376.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01381.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01386.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01391.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01396.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01401.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01406.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01446.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01451.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01691.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01696.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01701.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01706.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01711.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01716.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01721.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01726.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01796.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01801.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01806.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01811.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01816.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01821.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01826.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01831.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01836.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01841.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01846.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01851.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01856.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01861.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01866.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01871.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01876.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01881.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01886.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01891.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01896.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01901.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01906.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01911.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01916.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01921.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01926.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01931.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01936.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01941.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01946.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01951.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01956.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene01961.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02066.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02071.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02076.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02081.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02086.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02091.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02096.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02101.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02106.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02111.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02116.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02121.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02126.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02131.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02136.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02141.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02146.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02151.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02156.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02161.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02166.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02171.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02176.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02181.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02186.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02191.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02196.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02201.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02206.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02211.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02216.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02221.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02226.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02231.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02236.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02241.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02361.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02366.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02371.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02376.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02381.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02451.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02456.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02461.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02466.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02471.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02516.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02521.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02526.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02531.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02536.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02541.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02546.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02551.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02556.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02561.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02566.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02571.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02576.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02581.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02586.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02591.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02596.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02601.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02606.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02611.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02616.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02621.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02626.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02631.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02636.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02641.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02646.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02651.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02656.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02661.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02666.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02671.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02676.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02681.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02686.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02691.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02696.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02761.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dalai_lama_same/scene02766.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_metrics/scheme_principal.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/variance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,32 +310,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-342">
-              <caret selection-end-column="19" />
+            <state relative-caret-position="380">
+              <caret line="59" column="51" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/landmark_detection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="251" column="31" selection-start-line="251" selection-start-column="26" selection-end-line="251" selection-end-column="31" />
-              <folding>
-                <element signature="e#349#359#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/normalize_ratios.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18">
-              <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -59,28 +332,73 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pca_components.csv">
+        <entry file="file://$PROJECT_DIR$/detector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state>
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/explained_variance_racio.csv">
+        <entry file="file://$PROJECT_DIR$/variance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="22" lean-forward="true" selection-start-line="1" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="285">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/output2.csv">
+        <entry file="file://$PROJECT_DIR$/lib_metrics/scheme1.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib_metrics/scheme_all.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10">
-              <caret selection-end-line="1" />
+            <state relative-caret-position="817">
+              <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib_metrics/scheme_bboxnorm.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib_metrics/scheme_final.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="5" lean-forward="true" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib_metrics/scheme_principal.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/landmark_detection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-904">
+              <caret line="156" column="47" lean-forward="true" selection-start-line="156" selection-start-column="47" selection-end-line="156" selection-end-column="47" />
+              <folding>
+                <element signature="e#349#359#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,6 +420,7 @@
       <find>args</find>
       <find>scheme</find>
       <find>pd</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -113,14 +432,16 @@
         <option value="$PROJECT_DIR$/snake.py" />
         <option value="$PROJECT_DIR$/landmark_detection.py" />
         <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/pca.py" />
         <option value="$PROJECT_DIR$/explained_variance_racio.csv" />
+        <option value="$PROJECT_DIR$/pca.py" />
+        <option value="$PROJECT_DIR$/lib_metrics/scheme_principal.txt" />
+        <option value="$PROJECT_DIR$/variance.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="442" />
-    <option name="y" value="208" />
+    <option name="x" value="586" />
+    <option name="y" value="198" />
     <option name="width" value="1389" />
     <option name="height" value="789" />
   </component>
@@ -172,7 +493,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pca">
+  <component name="RunManager" selected="Python.variance">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="firstProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -217,8 +538,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="variance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="firstProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/variance.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.variance" />
         <item itemvalue="Python.pca" />
         <item itemvalue="Python.app" />
       </list>
@@ -240,23 +584,24 @@
       <workItem from="1562076769283" duration="355000" />
       <workItem from="1562077146426" duration="3282000" />
       <workItem from="1562081937487" duration="2951000" />
-      <workItem from="1562149269629" duration="12748000" />
+      <workItem from="1562149269629" duration="13422000" />
+      <workItem from="1562246259193" duration="5307000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31455000" />
+    <option name="totallyTimeSpent" value="37436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15163255" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15329275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19762419" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4859611" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -282,96 +627,90 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/firstProject$app.coverage" NAME="app Coverage Results" MODIFIED="1562079685447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Estagio_INESCTEC$variance.coverage" NAME="variance Coverage Results" MODIFIED="1562253389498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Estagio_INESCTEC$pca.coverage" NAME="pca Coverage Results" MODIFIED="1562189268892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/snake.py" />
-    <entry file="file://$PROJECT_DIR$/n000001/0001_01.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output.csv">
+    <entry file="file://$PROJECT_DIR$/pca_components" />
+    <entry file="file://$PROJECT_DIR$/metric_weights.csv" />
+    <entry file="file://$PROJECT_DIR$/loose_bb_test.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4605">
-          <caret line="307" column="172" selection-start-line="307" selection-start-column="172" selection-end-line="307" selection-end-column="172" />
+        <state relative-caret-position="-9" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output3.csv" />
+    <entry file="file://$PROJECT_DIR$/pca_components_abs.csv" />
+    <entry file="file://$PROJECT_DIR$/pca_variance.csv" />
+    <entry file="file://$PROJECT_DIR$/pca_components.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pca_components">
+    <entry file="file://$PROJECT_DIR$/output2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n000001/0001_01.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/metric_weights.csv">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/normalize_ratios.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="54" column="10" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explained_variance_racio.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib_metrics/scheme1.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/lib_metrics/scheme_all.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
+        <state relative-caret-position="817">
           <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loose_bb_test.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib_metrics/scheme_bboxnorm.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="399">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib_metrics/scheme_final.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="29" selection-start-line="29" selection-end-line="29" selection-end-column="11" />
+        <state relative-caret-position="285">
+          <caret line="15" column="5" lean-forward="true" selection-end-line="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output3.csv">
+    <entry file="file://$PROJECT_DIR$/lib_metrics/scheme_principal.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output2.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342">
-          <caret selection-end-column="19" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/normalize_ratios.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pca_components_abs.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pca_variance.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/landmark_detection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="251" column="31" selection-start-line="251" selection-start-column="26" selection-end-line="251" selection-end-column="31" />
+        <state relative-caret-position="-904">
+          <caret line="156" column="47" lean-forward="true" selection-start-line="156" selection-start-column="47" selection-end-line="156" selection-end-column="47" />
           <folding>
             <element signature="e#349#359#0" expanded="true" />
           </folding>
@@ -388,17 +727,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pca_components.csv">
+    <entry file="file://$PROJECT_DIR$/detector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state>
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/explained_variance_racio.csv">
+    <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="1" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="380">
+          <caret line="59" column="51" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/variance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
