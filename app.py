@@ -5,7 +5,6 @@ from xml.dom import minidom
 import os
 
 
-
 def write_xml(img_path, obj, tl, br):
     image = cv2.imread(img_path)
     head_img, tail_img = os.path.split(img_path)
@@ -49,26 +48,30 @@ def write_xml(img_path, obj, tl, br):
 
 
 def main():
+    files_names = os.listdir("chosen");
     dataframe = pd.read_csv("loose_bb_test.csv")
-    print(os.listdir("n000001"))
-    print(dataframe['NAME_ID'])
 
-    obj = ["n000001"]
-    tl =[]
-    br = []
-    for idx, row in dataframe.iterrows():
-        if row['NAME_ID'].find("n000001") != -1 and os.path.isfile(row['NAME_ID'] + ".jpg"):
-            tlx = int(row['X'])
-            tly = int(row['Y'])
-            brx = int(row['X'] + row['W'])
-            bry = int(row['Y'] + row['H'])
-            tl.append((tlx, tly))
-            br.append((brx, bry))
-            write_xml(row['NAME_ID'] + ".jpg", obj, tl, br)
-            tl[:] = []
-            br[:] = []
+    for filename in files_names:
+        #print(os.listdir("chosen/" + filename))
+        #print(dataframe['NAME_ID'])
+        obj = [filename]
+        tl =[]
+        br = []
+        for idx, row in dataframe.iterrows():
+            if row['NAME_ID'].find(filename) != -1 and os.path.isfile("chosen/" + row['NAME_ID'] + ".jpg"):
+                print("file found\n")
+                tlx = int(row['X'])
+                tly = int(row['Y'])
+                brx = int(row['X'] + row['W'])
+                bry = int(row['Y'] + row['H'])
+                tl.append((tlx, tly))
+                br.append((brx, bry))
+                write_xml("chosen/" + row['NAME_ID'] + ".jpg", obj, tl, br)
+                tl[:] = []
+                br[:] = []
 
 
 
 if __name__ == '__main__':
     main()
+    
