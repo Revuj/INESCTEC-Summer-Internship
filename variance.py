@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-from sklearn.decomposition import PCA
 
 
 def main():
@@ -9,7 +8,7 @@ def main():
 
     content = [x.strip() for x in content]
 
-    dataframe = pd.read_csv("output.csv")
+    dataframe = pd.read_csv("out2.csv")
 
     mean_list = []
     var_list = []
