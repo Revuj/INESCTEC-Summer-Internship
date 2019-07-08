@@ -1,4 +1,4 @@
-# @Author: Luís Vilaça <lvilaca>
+# @Author: Luis Vilaca <lvilaca>
 # @Date:   2019-04-23T12:04:57+01:00
 # @Email:  luis.m.salgado@inesctec.pt
 # @Filename: landmark_detection.py
@@ -294,3 +294,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+

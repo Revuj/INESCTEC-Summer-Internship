@@ -1,12 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/pca.py" line="8" />
+    <bookmark url="file://$PROJECT_DIR$/pca.py" line="7" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5dba5bef-8eb1-4df4-bfb9-728d9b793ab5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landmarks/out1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landmarks/out149.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landmarks/out178.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landmarks/out259.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landmarks/out29.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landmarks/out596.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landmarks/out658.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landmarks/out736.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landmarks/out82.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landmarks/out838.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metric_weights.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/normalized2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/normalized_ratios/normalized1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/normalized_ratios/normalized149.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/normalized_ratios/normalized178.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/normalized_ratios/normalized259.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/normalized_ratios/normalized29.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/normalized_ratios/normalized596.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/normalized_ratios/normalized658.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/normalized_ratios/normalized736.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/normalized_ratios/normalized82.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/normalized_ratios/normalized838.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outsame1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pca/pca_components1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pca/pca_components149.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pca/pca_components178.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pca/pca_components259.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pca/pca_components29.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pca/pca_components596.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pca/pca_components658.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pca/pca_components736.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pca/pca_components82.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pca/pca_components838.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pca/pca_variance1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pca/pca_variance149.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pca/pca_variance178.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pca/pca_variance259.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pca/pca_variance29.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pca/pca_variance596.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pca/pca_variance658.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pca/pca_variance736.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pca/pca_variance82.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pca/pca_variance838.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pca_components_abs.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pca_variance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dlib-19.17.0.dist-info/DESCRIPTION.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dlib-19.17.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dlib-19.17.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dlib-19.17.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dlib-19.17.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dlib-19.17.0.dist-info/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dlib-19.17.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/dlib.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explained_variance_racio.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landmark_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/landmark_detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_metrics/scheme_principal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib_metrics/scheme_principal.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/means.csv" beforeDir="false" afterPath="$PROJECT_DIR$/means.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/pca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pca_components.csv" beforeDir="false" afterPath="$PROJECT_DIR$/pca_components.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spreadsheet.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variance.py" beforeDir="false" afterPath="$PROJECT_DIR$/variance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/variances.csv" beforeDir="false" afterPath="$PROJECT_DIR$/variances.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
+            <state relative-caret-position="684">
+              <caret line="75" column="6" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -31,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pca.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+            <state relative-caret-position="152">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -54,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/variance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+            <state relative-caret-position="380">
+              <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -67,7 +132,7 @@
         <entry file="file://$PROJECT_DIR$/means.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="10" selection-end-column="10" />
+              <caret selection-end-line="10" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -105,9 +170,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1292">
               <caret line="156" column="47" selection-start-line="156" selection-start-column="47" selection-end-line="156" selection-end-column="47" />
-              <folding>
-                <element signature="e#349#359#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -296,12 +358,12 @@
       <workItem from="1562081937487" duration="2951000" />
       <workItem from="1562149269629" duration="13422000" />
       <workItem from="1562246259193" duration="6189000" />
-      <workItem from="1562592503793" duration="3609000" />
+      <workItem from="1562592503793" duration="3657000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41927000" />
+    <option name="totallyTimeSpent" value="41975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="196" y="178" width="1389" height="789" extended-state="0" />
@@ -402,7 +464,7 @@
     <entry file="file://$PROJECT_DIR$/means.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="10" selection-end-column="10" />
+          <caret selection-end-line="10" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -439,16 +501,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1292">
           <caret line="156" column="47" selection-start-line="156" selection-start-column="47" selection-end-line="156" selection-end-column="47" />
-          <folding>
-            <element signature="e#349#359#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pca.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+        <state relative-caret-position="152">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -457,8 +516,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/variance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+        <state relative-caret-position="380">
+          <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -467,8 +526,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
+        <state relative-caret-position="684">
+          <caret line="75" column="6" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
