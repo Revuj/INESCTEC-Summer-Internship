@@ -53,26 +53,28 @@ def main():
     tl = []
     br = []
     count = 0
+    folders = os.listdir("chosensame")
 
+    for foldername in folders:
+        filenames = os.listdir("chosensame/" +foldername)
+        print("beginning folder " + foldername)
+        for filename in filenames:
+            #print("now doing image "+ str(count) + ": chosensame/"+ foldername +"/"+filename)
+            if filename[-3:] == "jpg":
+                img = dlib.load_rgb_image("chosensame/" + foldername + "/" + filename)
+                dets = detector(img, 1)
+                for (i, d) in enumerate(dets):
+                    x1 = d.left()
+                    y1 = d.top()
+                    x2 = d.right()
+                    y2 = d.bottom()
 
-    for filename in os.listdir("n000001same"):
-        sys.stdout.write('count: {}\r'.format(count))
-        sys.stdout.flush()
-
-        img = dlib.load_rgb_image("n000001same/" + filename)
-        dets = detector(img, 1)
-        for (i, d) in enumerate(dets):
-            x1 = d.left()
-            y1 = d.top()
-            x2 = d.right()
-            y2 = d.bottom()
-
-        tl.append((x1, y1-20))
-        br.append((x2, y2+20))
-        write_xml("n000001same/" + filename, ["n000001same"], tl, br)
-        tl = []
-        br = []
-        count +=1
+                tl.append((x1, y1-20))
+                br.append((x2, y2+20))
+                write_xml("chosensame/" + foldername + "/" + filename, [filename], tl, br)
+                tl = []
+                br = []
+                count += 1
 
 if __name__ == '__main__':
     main()
