@@ -68,7 +68,7 @@ def main():
             if data == 'test':
                 for filename in images:
                     if filename[-3:] == "png" or filename[-3:] == "jpg":
-                        numpyimg = cv2.imread("dataset/" + foldername + "/" + data + "/" + filename)
+                        numpyimg = cv2.imread("dataset/" + foldername + "/" + data + "/" + filename, -1)
                         img = dlib.load_rgb_image("dataset/" + foldername + "/" + data + "/" + filename)
                         dets = detector(img, 1)
 
@@ -81,9 +81,8 @@ def main():
                         tl.append((x1, y1-20))
                         br.append((x2, y2+20))
                         write_xml("dataset/" + foldername + "/" + data + "/" + filename, [filename], tl, br)
-                        numpyimg = numpyimg[y1:y2, x1:x2]
-                        im = Image.fromarray(numpyimg)
-                        im.save("dataset/" + foldername + "/" + data + "/" + filename)
+                        numpyimg = numpyimg[y1 - 20:y2 + 20, x1:x2]
+                        cv2.imwrite("dataset/" + foldername + "/" + data + "/" + filename, numpyimg)
                         tl = []
                         br = []
                         count += 1
@@ -103,8 +102,7 @@ def main():
                             br.append((brx, bry))
                             write_xml("dataset/" + foldername + "/" + data + "/" + filename, [filename], tl, br)
                             numpyimg = numpyimg[tly:bry, tlx:brx]
-                            im = Image.fromarray(numpyimg)
-                            im.save("dataset/" + foldername + "/" + data + "/" + filename)
+                            cv2.imwrite("dataset/" + foldername + "/" + data + "/" + filename, numpyimg)
                             tl[:] = []
                             br[:] = []
                             break
