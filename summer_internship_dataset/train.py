@@ -25,19 +25,19 @@ def main():
 
     val_data = ImageDataGenerator(rescale=1./255)
 
-    train_diff = pd.read_csv('summer_internship_dataset/train_diff.csv')
-    val_diff = pd.read_csv('summer_internship_dataset/val_diff.csv')
+    train_diff = pd.read_csv('train_diff.csv')
+    val_diff = pd.read_csv('val_diff.csv')
 
     train_gen = train_data.flow_from_dataframe(
         dataframe = train_diff,
-        directory = 'summer_internship_dataset/dataset/diff',
+        directory = 'dataset/diff',
         target_size=(100, 100),
         batch_size=16,
         x_col="filename", y_col="label", class_mode="categorical")
 
     validation_gen = val_data.flow_from_dataframe(
             dataframe = val_diff,
-            directory = 'summer_internship_dataset/dataset/diff',
+            directory = 'dataset/diff',
             target_size=(100, 100),
             batch_size=16,
             x_col="filename", y_col="label", class_mode="categorical")
@@ -91,3 +91,7 @@ def main():
     axs[1].plot(epochs, val_loss, 'b', label='Validation_loss')
     axs[1].legend()
     plt.show()
+
+
+if __name__ == '__main__':
+    main()
