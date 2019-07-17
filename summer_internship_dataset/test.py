@@ -30,11 +30,12 @@ def predict_with_testset(model):
 
 
     path = '/home/revujenation/PycharmProjects/Estagio_INESCTEC/summer_internship_dataset/dataset/test'
-    for count, img_file in enumerate(glob.glob(path + '/*.jpg')):
-        # Read only 5 images per subfolder (class)
-        if count > 10:
-            break
-        image = cv2.imread(img_file)
+    dataframe = pd.read_csv("/home/revujenation/PycharmProjects/Estagio_INESCTEC/summer_internship_dataset/test.csv")
+
+    correct = 0
+    incorrect = 0
+    for index, row in dataframe.iterrows():
+        image = cv2.imread(path + '/' + row['filename'])
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
         height, width, depth = image.shape
 
@@ -46,40 +47,21 @@ def predict_with_testset(model):
         # Get the prediction with higher confidence score
         predict = [round(pred, 5) * 100 for pred in predict_img[0]]
         idx = predict.index(max(predict))
-
-'''
-        # Draw result in the image
-            #cv2.rectangle(image, (0, height - 30), (width, height), (255, 255, 255), -1)
-            #font = cv2.FONT_HERSHEY_SIMPLEX
-            #cv2.putText(image,
-                        'Prediction: {} {} %'.format(map_characters[idx].title().split('_')[0], int(predict[idx]), 4),
-                        (5, height - 10), font, 0.7, (0, 0, 0), 2, cv2.LINE_AA)
-
-            # Horizontal stack to display images side by side
-            image_f = np.hstack((image, superimposed_img))
-            clear_output()
-            plt.imshow(image_f)
-            plt.grid(False)
-            plt.axis('off')
-
-            plt.show()
-            time.sleep(2)
-            '''
-
-        # **********************************************
+        if map_characters[idx] == row['label']:
+            correct += 1
+        else:
+            incorrect += 1
 
 
-# Exercise: Replace the argument of the function
-# predict_with_testset with the model that you
-# want to test
-# **********************************************
+    print(str(correct/(correct+incorrect)))
+
 def main():
-    json_file = open('model.json', 'r')
+    json_file = open('/home/revujenation/PycharmProjects/Estagio_INESCTEC/summer_internship_dataset/model.json', 'r')
     loaded_model_json = json_file.read()
     json_file.close()
     loaded_model = model_from_json(loaded_model_json)
     # load weights into new model
-    loaded_model.load_weights('same_dataset_weights.h5', by_name=True)
+    loaded_model.load_weights('/home/revujenation/PycharmProjects/Estagio_INESCTEC/summer_internship_dataset/diff4_dataset_weights.h5', by_name=True)
     predict_with_testset(loaded_model)
 
 if __name__ == '__main__':
