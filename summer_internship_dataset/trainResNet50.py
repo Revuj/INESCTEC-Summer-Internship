@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-from keras import layers, applications, Model
+from keras import layers, applications, Model, Input
 from keras import models
 from keras import regularizers
-from keras.applications import ResNet50
+from keras.applications import ResNet50, VGG16
 from keras.layers import MaxPool2D, Dropout, Dense, Flatten
 from keras.preprocessing.image import ImageDataGenerator
 
@@ -44,7 +44,8 @@ def main():
         batch_size=16,
         x_col="filename", y_col="label", class_mode="categorical")
 
-    base_model = ResNet50(weights=None, include_top=False, input_shape=(100, 100, 3))
+    inputs = Input(shape=(100, 100, 3))
+    base_model = VGG16(weights=None, include_top=False, input_tensor=inputs)
     model = base_model.output
     model = MaxPool2D()(model)
     model = Dropout(0.5)(model)
