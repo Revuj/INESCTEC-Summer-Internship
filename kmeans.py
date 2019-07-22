@@ -28,19 +28,27 @@ def main():
     for filename in files_names:
         image_counter = 0
         dict = {}
+        train_dataframe = pd.DataFrame({"filepath": [], "label": []})
+        val_dataframe = pd.DataFrame({"filepath": [], "label": []})
+        dataframe = pd.read_csv("normalized_ratios/" + filename)
+        datamatrix = dataframe.values[:, 1:]
+
+        labels = pd.read_csv("landmarks/out" + filename[10:])
+
+        for index, row in labels.iterrows():
+            if filename[10:-4] != '1' and filename[10:-4] != '9213':
+                dict.update({row['filename'][15:]: 0})
+            else:
+                dict.update({row['filename'][8:]: 1})
+
+        print(len(dict.items()))
+
         while image_counter < 50:
-            dataframe = pd.read_csv("normalized_ratios/" + filename)
-            datamatrix = dataframe.values[:, 1:]
-
-            print(filename)
-            labels = pd.read_csv("landmarks/out" + filename[10:])
-
             kmeans = KMeans(init='k-means++', n_clusters=50).fit(datamatrix)
 
-            new_dataframe = pd.DataFrame({"filepath": [], "label": []})
             print('#########' + filename + '#########')
             for centroid in kmeans.cluster_centers_:
-                min_distance = 100.0
+                min_distance = 20000.0
                 counter = 0
                 min_index = 0
                 for image in datamatrix:
@@ -51,39 +59,33 @@ def main():
                     counter += 1
 
                 if filename[10:-4] != '1' and filename[10:-4] != '9213':
-                    img = cv2.imread("dataset/" + map[filename[10:-4]] + "/diff/" + labels['filename'][min_index][15:],
-                                     -1)
+                    #img = cv2.imread("dataset/" + map[filename[10:-4]] + "/diff/" + labels['filename'][min_index][15:], -1)
 
-                    if labels['filename'][min_index][15:] in dict:
-                        print("already exists")
-                        dict[labels['filename'][min_index][15:]] += 1
-                    else:
-                        dict.update({labels['filename'][min_index][15:]: 1})
-
+                    dict[labels['filename'][min_index][15:]] += 1
                     if (dict[labels['filename'][min_index][15:]] == 5):
                         image_counter += 1
-                        cv2.imwrite("kmeans50/" + filename[10:-4] + "/" + labels['filename'][min_index][15:], img)
-                        new_dataframe = new_dataframe.append(
-                        {'filepath': labels['filename'][min_index][15:], 'label': map[filename[10:-4]]},
-                        ignore_index=True)
-                else:
-                    img = cv2.imread("dataset/" + map[filename[10:-4]] + "/diff/" + labels['filename'][min_index][8:],
-                                     -1)
+                        #cv2.imwrite("kmeans50/" + filename[10:-4] + "/" + labels['filename'][min_index][15:], img)
 
-                    if labels['filename'][min_index][8:] in dict:
-                        dict[labels['filename'][min_index][8:]] += 1
-                    else:
-                        dict.update({labels['filename'][min_index][8:]: 1})
+                else:
+                    #img = cv2.imread("dataset/" + map[filename[10:-4]] + "/diff/" + labels['filename'][min_index][8:], -1)
+
+                    dict[labels['filename'][min_index][8:]] += 1
 
                     if (dict[labels['filename'][min_index][8:]] == 5):
                         image_counter += 1
-                        cv2.imwrite("kmeans50/" + filename[10:-4] + "/" + labels['filename'][min_index][8:], img)
-                        new_dataframe = new_dataframe.append(
-                        {'filepath': labels['filename'][min_index][8:], 'label': map[filename[10:-4]]},
-                        ignore_index=True)
+                        #cv2.imwrite("kmeans50/" + filename[10:-4] + "/" + labels['filename'][min_index][8:], img)
 
                 index += 1
-                new_dataframe.to_csv(map[filename[10:-4]] + "kmeans50.csv")
+
+        print(len(dict))
+        for img, cnt in dict.items():
+            if cnt >= 5:
+                train_dataframe = train_dataframe.append({'filepath': img, 'label': map[filename[10:-4]]}, ignore_index=True)
+            else:
+                val_dataframe = val_dataframe.append({'filepath': img, 'label': map[filename[10:-4]]}, ignore_index=True)
+
+        train_dataframe.to_csv("kmeans50/" + filename[10:-4] + "/train" + ".csv")
+        val_dataframe.to_csv("kmeans50/" + filename[10:-4] + "/val" + ".csv")
 
 
 if __name__ == '__main__':
