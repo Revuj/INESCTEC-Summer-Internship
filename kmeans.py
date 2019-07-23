@@ -46,6 +46,8 @@ def main():
 
             print('#########' + filename + '#########')
             for centroid in kmeans.cluster_centers_:
+                if image_counter == 100:
+                    break
                 min_distance = 20000.0
                 counter = 0
                 min_index = 0
