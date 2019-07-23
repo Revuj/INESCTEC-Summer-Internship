@@ -21,15 +21,13 @@ def main():
            '9213': 'Zelia_Duncan',
            }
 
-
-
+    train_dataframe = pd.DataFrame({"filepath": [], "label": []})
+    val_dataframe = pd.DataFrame({"filepath": [], "label": []})
     files_names = os.listdir("normalized_ratios")
     index = 0
     for filename in files_names:
         image_counter = 0
         dict = {}
-        train_dataframe = pd.DataFrame({"filepath": [], "label": []})
-        val_dataframe = pd.DataFrame({"filepath": [], "label": []})
         dataframe = pd.read_csv("normalized_ratios/" + filename)
         datamatrix = dataframe.values[:, 1:]
 
@@ -39,12 +37,12 @@ def main():
             if filename[10:-4] != '1' and filename[10:-4] != '9213':
                 dict.update({row['filename'][15:]: 0})
             else:
-                dict.update({row['filename'][8:]: 1})
+                dict.update({row['filename'][8:]: 0})
 
         print(len(dict.items()))
 
-        while image_counter < 50:
-            kmeans = KMeans(init='k-means++', n_clusters=50).fit(datamatrix)
+        while image_counter < 100:
+            kmeans = KMeans(init='k-means++', n_clusters=100).fit(datamatrix)
 
             print('#########' + filename + '#########')
             for centroid in kmeans.cluster_centers_:
@@ -64,7 +62,7 @@ def main():
                     dict[labels['filename'][min_index][15:]] += 1
                     if (dict[labels['filename'][min_index][15:]] == 5):
                         image_counter += 1
-                        #cv2.imwrite("kmeans50/" + filename[10:-4] + "/" + labels['filename'][min_index][15:], img)
+                        #cv2.imwrite("kmeans100/" + filename[10:-4] + "/" + labels['filename'][min_index][15:], img)
 
                 else:
                     #img = cv2.imread("dataset/" + map[filename[10:-4]] + "/diff/" + labels['filename'][min_index][8:], -1)
@@ -73,19 +71,20 @@ def main():
 
                     if (dict[labels['filename'][min_index][8:]] == 5):
                         image_counter += 1
-                        #cv2.imwrite("kmeans50/" + filename[10:-4] + "/" + labels['filename'][min_index][8:], img)
+                        #cv2.imwrite("kmeans100/" + filename[10:-4] + "/" + labels['filename'][min_index][8:], img)
 
                 index += 1
 
         print(len(dict))
         for img, cnt in dict.items():
             if cnt >= 5:
-                train_dataframe = train_dataframe.append({'filepath': img, 'label': map[filename[10:-4]]}, ignore_index=True)
+                train_dataframe = train_dataframe.append({'filepath': map[filename[10:-4]] + "_" + img, 'label': map[filename[10:-4]]}, ignore_index=True)
             else:
-                val_dataframe = val_dataframe.append({'filepath': img, 'label': map[filename[10:-4]]}, ignore_index=True)
+                val_dataframe = val_dataframe.append({'filepath': map[filename[10:-4]] + "_" + img, 'label': map[filename[10:-4]]}, ignore_index=True)
 
-        train_dataframe.to_csv("kmeans50/" + filename[10:-4] + "/train" + ".csv")
-        val_dataframe.to_csv("kmeans50/" + filename[10:-4] + "/val" + ".csv")
+    train_dataframe.to_csv("kmeans100/train.csv")
+    val_dataframe.to_csv("kmeans100/val.csv")
+
 
 
 if __name__ == '__main__':

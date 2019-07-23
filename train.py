@@ -25,8 +25,8 @@ def main():
 
     val_data = ImageDataGenerator(rescale=1./255)
 
-    train_diff = pd.read_csv('train_diff.csv')
-    val_diff = pd.read_csv('val_diff.csv')
+    train_diff = pd.read_csv('train_diff4.csv')
+    val_diff = pd.read_csv('val_diff4.csv')
 
     train_gen = train_data.flow_from_dataframe(
         dataframe = train_diff,
@@ -64,17 +64,20 @@ def main():
 
     model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['acc'])
 
-    model.summary()
+    # serialize model to JSON
+    model_json = model.to_json()
+    with open("model.json", "w") as json_file:
+        json_file.write(model_json)
 
     history = model.fit_generator(
         train_gen,
         steps_per_epoch=238,
-        epochs=100,
+        epochs=200,
         validation_data=validation_gen,
         validation_steps=60)
 
     # Save weights
-    model.save_weights('diff_dataset_weights.h5')
+    model.save_weights('diff4_dataset_weights.h5')
 
     # Plot history
     acc = smooth_curve(history.history['acc'])
